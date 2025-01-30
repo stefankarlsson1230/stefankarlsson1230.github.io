@@ -1,0 +1,27 @@
+html, body {
+    background-color: #27374D;
+    margin: 0;
+    padding: 0;    
+}
+
+nav {
+    margin: 0;
+    background-color: #526D82;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover:not(#current) {
+    color: black;
+}
+
+nav a {
+    text-decoration: none;
+    color: #9DB2BF;
+}
+
+#current {
+    color: #DDE6ED;
+    cursor: default;
+    text-shadow: 3px 3px 2px #27374D;
+}
