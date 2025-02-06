@@ -6,13 +6,11 @@ html, body {
 
 nav {
     margin: 0;
+    width: 100%;
     background-color: #526D82;
     display: flex;
     justify-content: space-around;
-}
-
-nav a:hover:not(#current) {
-    color: black;
+    position: fixed;
 }
 
 nav a {
@@ -20,8 +18,13 @@ nav a {
     color: #9DB2BF;
 }
 
-#current {
-    color: #DDE6ED;
-    cursor: default;
-    text-shadow: 3px 3px 2px #27374D;
+nav a:hover {
+    color: black;
 }
+
+#current {
+    color: #e8eef3;
+    cursor: default;
+    font-size: 1.6rem; 
+}
+
