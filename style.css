@@ -4,6 +4,8 @@ html, body {
     padding: 0;    
 }
 
+
+/* The Menu */
 nav {
     margin: 0;
     width: 100%;
@@ -13,16 +15,20 @@ nav {
     position: fixed;
 }
 
-nav a {
+
+.unselectedMenuItem {
     text-decoration: none;
     color: #9DB2BF;
 }
 
-nav a:hover {
+
+.unselectedMenuItem:hover {
     color: black;
 }
 
-#current {
+
+.selectedMenuItem {
+    text-decoration: none;
     color: #e8eef3;
     cursor: default;
     font-size: 1.6rem; 
