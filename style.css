@@ -1,7 +1,21 @@
+/* Common */
 html, body {
     background-color: #27374D;
     margin: 0;
     padding: 0;    
+}
+
+h2 {
+    color: #9DB2BF;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 75px;
 }
 
 
@@ -13,19 +27,17 @@ nav {
     display: flex;
     justify-content: space-around;
     position: fixed;
+    top: 0;
 }
-
 
 .unselectedMenuItem {
     text-decoration: none;
     color: #9DB2BF;
 }
 
-
 .unselectedMenuItem:hover {
     color: black;
 }
-
 
 .selectedMenuItem {
     text-decoration: none;
@@ -34,3 +46,13 @@ nav {
     font-size: 1.6rem; 
 }
 
+/* Personal */
+#myPhoto {
+    border-radius: 5%;
+    height: 20rem;
+    float: left;
+}
+
+section#personal {
+    height: 100vh;
+}
