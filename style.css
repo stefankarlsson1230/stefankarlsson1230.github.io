@@ -1,21 +1,15 @@
 /* Common */
 html, body {
+    color: #9DB2BF;
     background-color: #27374D;
     margin: 0;
-    padding: 0;    
-}
-
-h2 {
-    color: #9DB2BF;
+    padding: 0;
+    scroll-behavior: smooth;    
 }
 
 main {
     width: 80%;
     margin: 0 auto;
-}
-
-section {
-    margin-top: 80px;
 }
 
 
@@ -46,18 +40,31 @@ nav {
     font-size: 1.6rem; 
 }
 
-/* Personal */
-#myPhoto {
-    border-radius: 5%;
-    height: 20rem;
-    float: left;
-    margin-right: 2rem;
+/* The Sections */
+
+section {
+    margin-top: 80px;
+    border-radius: 5px;
+    border: 4px solid #9DB2BF;
+    padding: 1rem;
 }
 
-section#personal {
-    height: 100vh;
+.sectionHeading {
+    color: #9DB2BF;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 1rem;
 }
 
-/* Projects */
+section p {
+    margin: 1rem;
+    color: #9DB2BF;
+}
 
- 
+section img {
+
+}
+
+
+
