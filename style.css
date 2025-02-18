@@ -66,10 +66,13 @@ section {
 
 .sectionProjects {
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .sectionCard {
     width: 40%;
+    min-width: 450px;
     margin: 1rem;
     text-align: center;
 }
@@ -80,7 +83,7 @@ section {
 }
 
 .sectionCard img:hover {
-    box-shadow: 3px 3px black;
+    box-shadow: 3px 3px 3px white;
 }
 
 .sectionCard p {
