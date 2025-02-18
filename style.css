@@ -44,27 +44,45 @@ nav {
 
 section {
     margin-top: 80px;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     border: 4px solid #9DB2BF;
-    padding: 1rem;
+    padding: 0 1rem;
 }
 
 .sectionHeading {
-    color: #9DB2BF;
     text-align: center;
     font-weight: bold;
     font-size: 2rem;
     margin: 1rem;
 }
 
-section p {
+.sectionIntro {
+    border-top: 1px solid #9DB2BFAA;
+    border-bottom: 1px solid #9DB2BFAA;
+    padding: 0.5rem;
+    font-size: 1.1rem;
     margin: 1rem;
-    color: #9DB2BF;
 }
 
-section img {
-
+.sectionProjects {
+    display: flex;
 }
 
+.sectionCard {
+    width: 40%;
+    margin: 1rem;
+    text-align: center;
+}
 
+.sectionCard img {
+    display: inline-block;
+    max-width: 100%;
+}
 
+.sectionCard img:hover {
+    box-shadow: 3px 3px black;
+}
+
+.sectionCard p {
+    text-align: left;
+}
