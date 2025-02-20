@@ -79,7 +79,7 @@ section {
 
 .sectionCard img {
     display: inline-block;
-    max-width: 100%;
+    max-width: 450px;
 }
 
 .sectionCard img:hover {
