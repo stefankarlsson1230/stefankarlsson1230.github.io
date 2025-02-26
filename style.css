@@ -83,7 +83,7 @@ section {
 }
 
 .sectionCard img:hover {
-    box-shadow: 3px 3px 3px white;
+    box-shadow: 2px 2px darkgray;
 }
 
 .sectionCard p {
