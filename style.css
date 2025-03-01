@@ -64,6 +64,12 @@ section {
     margin: 1rem;
 }
 
+.sectionIntro.lexicon {
+    text-align: center;
+    font-size: 1.1em;
+    padding: 0.5em;
+}
+
 .sectionProjects {
     display: flex;
     justify-content: space-evenly;
