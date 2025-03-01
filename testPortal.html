@@ -9,15 +9,15 @@
 <body>
   <header>
     <nav>
-      <h2><a class="menuLink unselectedMenuItem" href="index.html#top">Lexicon</a></h2>
-      <h2><a class="menuLink unselectedMenuItem" href="index.html#freeCodeCamp">FreeCodeCamp</a></h2>
+      <h2><a class="menuLink unselectedMenuItem" href="index.html#top">Home</a></h2>
+      <h2><a class="menuLink unselectedMenuItem" href="">Students Portal</a></h2>
     </nav>
   </header>
   <main>
     <section> 
       <p class="sectionHeading">The Test Portal</p>
       <p class="sectionIntro">
-       The entrypoint for the webapplication is a simple login page. Depending on the users role (using Identity) the user will thereafter be directed
+       The entrypoint for the webapplication is a simple login page. Depending on the users role (using Identity) the user will then be redirected
        to the students portal or the teacher/admin portal.
       </p>
     
@@ -115,14 +115,6 @@
         <strong>The Teachers Portal - Users/Groups </strong>
       </p>
       <div class="sectionProjects">
-
-        <!-- Create New User -->
-        <div class="sectionCard">
-          <a href="images/testPortal/teachers/manageUsers/addNewUser.PNG" target="_blank">
-            <img src="images/testPortal/teachers/manageUsers/addNewUser.PNG" alt="creating new users">
-          </a>
-          <h3>Create a new user</h3>
-        </div>
       
         <!-- Manage Groups -->
         <div class="sectionCard">
@@ -140,6 +132,14 @@
           </a>
           <h3>Editing and removing users</h3>
         </div>
+
+        <!-- Create New User -->
+        <div class="sectionCard">
+          <a href="images/testPortal/teachers/manageUsers/addNewUser.PNG" target="_blank">
+            <img src="images/testPortal/teachers/manageUsers/addNewUser.PNG" alt="creating new users">
+          </a>
+          <h3>Create new user</h3>
+        </div>
       </div>
 
 
@@ -151,17 +151,107 @@
         <!-- Schedule tests -->
         <div class="sectionCard">
           <a href="images/testPortal/teachers/manageTests/scheduleTest.PNG" target="_blank">
-            <img src="images/testPortal/teachers//manageTests/scheduleTest.PNG" alt="delete and edit users">
+            <img src="images/testPortal/teachers/manageTests/scheduleTest.PNG" alt="scheduling tests and selecting students">
           </a>
           <h3>Schedule test</h3>
-          <p>Before students can perom a test, it has to be scheduled.</p>
+          <p>Tests can be scheduled and groups/individual students that should have accesss to the test can be selected.</p>
         </div>
       
+        <!-- Status of test -->
+        <div class="sectionCard">
+          <a href="images/testPortal/teachers/manageTests/statusOfTest.PNG" target="_blank">
+            <img src="images/testPortal/teachers/manageTests/statusOfTest.PNG" alt="see current status of a test">
+          </a>
+          <h3>Test status</h3>
+          <p>When selecting "status" for a test on the schedule test page, it is possible to see which students has started and finished the test </p>
+        </div>
       
-      
-      
+        <!-- Archive test -->
+        <div class="sectionCard">
+          <a href="images/testPortal/teachers/manageTests/archiveTest.PNG" target="_blank">
+            <img src="images/testPortal/teachers/manageTests/archiveTest.PNG" alt="archiving a test">
+          </a>
+          <h3>Archive tests</h3>
+          <p>When a test is archived any scheduled test-times are removed. There are no hard delete implemented, so an archived test can always be reactivated.</p>
+        </div>
+
+        <!-- Student results-->
+        <div class="sectionCard">
+          <a href="images/testPortal/teachers/manageTests/studentsResults.PNG" target="_blank">
+            <img src="images/testPortal/teachers/manageTests/studentsResults.PNG" alt="review the test-results of students">
+          </a>
+          <h3>Student result</h3>
+          <p>Review all the tests a student has performed. Clicking the Test-button will show all the questions from the selected test with correct and given answer.</p>
+        </div>
       </div>
 
+      <p class="sectionIntro">
+        <strong>The Teachers Portal - Creating Tests </strong>
+      </p>
+      <div class="sectionProjects">
+
+      <!-- View Tests-->
+      <div class="sectionCard">
+        <a href="images/testPortal/teachers/testCreation/viewTests.PNG" target="_blank">
+          <img src="images/testPortal/teachers/testCreation/viewTests.PNG" alt="see all tests">
+        </a>
+        <h3>View Tests</h3>
+      </div>
+
+      <!-- View Questions -->
+      <div class="sectionCard">
+        <a href="images/testPortal/teachers/testCreation/viewQuestions.PNG" target="_blank">
+          <img src="images/testPortal/teachers/testCreation/viewQuestions.PNG" alt="see all questions">
+        </a>
+        <h3>View Questions</h3>
+        <p>Active, unchecked and removed questions sorted by subject.</p>
+      </div>
+
+      <!-- View Subjects -->
+      <div class="sectionCard">
+        <a href="images/testPortal/teachers/testCreation/viewSubjects.PNG" target="_blank">
+          <img src="images/testPortal/teachers/testCreation/viewSubjects.PNG" alt="see all subjects">
+        </a>
+        <h3>View Subjects</h3>
+      </div>
+
+      <!-- Create Test 1 -->
+      <div class="sectionCard">
+        <a href="images/testPortal/teachers/testCreation/createTest1.PNG" target="_blank">
+          <img src="images/testPortal/teachers/testCreation/createTest1.PNG" alt="select settings for new test">
+        </a>
+        <h3>Create Test - step 1</h3>
+        <p>The first step when creating a new test is to select subject, number of questions (will be randomly selected from all 
+          available questions) and give the test a name.
+        </p>
+      </div>
+
+      <!-- Create Test 2 -->
+      <div class="sectionCard">
+        <a href="images/testPortal/teachers/testCreation/createTest2.PNG" target="_blank">
+          <img src="images/testPortal/teachers/testCreation/createTest2.PNG" alt="review the new test">
+        </a>
+        <h3>Create Test - step 2</h3>
+        <p>In the second step you can remove or add questions from all the active questions in the selected subjcet.</p>
+      </div>
+
+      <!-- Create Question -->
+      <div class="sectionCard">
+        <a href="images/testPortal/teachers/testCreation/createQuestion.PNG" target="_blank">
+          <img src="images/testPortal/teachers/testCreation/createQuestion.PNG" alt="create new questions">
+        </a>
+        <h3>Create Question</h3>
+      </div>
+
+      <!-- Create Subject -->
+      <div class="sectionCard">
+        <a href="images/testPortal/teachers/testCreation/createSubject.PNG" target="_blank">
+          <img src="images/testPortal/teachers/testCreation/createSubject.PNG" alt="create new subject">
+        </a>
+        <h3>Create Subject</h3>
+      </div>
+
+    </div>  
 
 
 
