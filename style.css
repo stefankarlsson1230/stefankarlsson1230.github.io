@@ -42,6 +42,10 @@ nav {
 
 /* The Sections */
 
+#bookmark {
+    margin-top: 80px;
+}
+
 section {
     margin-top: 80px;
     border-radius: 0.5rem;
