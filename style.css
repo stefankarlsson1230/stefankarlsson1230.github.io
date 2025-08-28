@@ -89,6 +89,10 @@ section {
     text-align: center;
 }
 
+.sectionCard.studies {
+    width: 20%;
+}
+
 .sectionCard img {
     display: inline-block;
     width: 100%;
