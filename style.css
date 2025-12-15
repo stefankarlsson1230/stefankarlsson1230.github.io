@@ -43,7 +43,7 @@ nav {
 
 /* The Sections */
 
-#bookmark {
+.bookmark {
     margin-top: 80px;
 }
 
@@ -89,10 +89,9 @@ section {
     text-align: center;
 }
 
-.sectionCard.studies {
-    width: 20%;
-}
 
+/* Images should have a width of 960px and a height of 540px */
+/* I might need to make these smaller */
 .sectionCard img {
     display: inline-block;
     width: 100%;
